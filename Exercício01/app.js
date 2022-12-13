@@ -24,22 +24,3 @@ function funcaoComumA(valor){
 
   }
   funcaoComumA(lista);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
