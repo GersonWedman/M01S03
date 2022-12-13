@@ -130,15 +130,11 @@
 // console.log(objeto.b);
 // console.log(objeto['c'])
 // // ----------------
-var vetor=[]
-vetor.push(42, 15, 34);
-console.log(vetor);
-console.log(vetor);
-console.log(vetor[0]);
-console.log(vetor[1]);
-console.log(vetor[2]);
-vetor.sort ();
-console.log(vetor[0]);
-console.log(vetor[1]);
-console.log(vetor[2]);
 
+function funcaoComumA(valor){
+console.log('Sou uma função ' + valor);
+valor.sort();
+console.log(valor);
+}
+
+funcaoComumA([40,20,30])
