@@ -1,3 +1,5 @@
-# M01S03 - Exercício Trello 02 
-#Exercício com objetivo de criar função através do arrow function.
-#Resultado deve ser a mensagem no console: Olá, nome! Nome será atribuído ao chamar a funçao. 
+# M01S03 - Exercício Trello 07
+
+# função deve pegar o conteúdo de um objeto e separar as propriedades com destruct.
+
+# exibe o resultado "Esta é Ada, tem 36 anos e é matemática."
