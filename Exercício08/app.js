@@ -1,18 +1,16 @@
-// const arr1 = [1, 2, 3, 4];
-// const une = [3, 4];
+//necessário inserir os valores desejados para o array em r1.
 
-// const resultado = [...une, arr1];
-
-// console.log(resultado);
-
-const r1 = [[6], 3, 15, 100];
+const r1 = [[2], 10, 4, 8];
+var r2 = [];
+var r3 = [];
 
 const uneDobraRetorna = (r1) => {
   console.log(r1.length);
   for (let i = 1; i < r1.length; i++) {
-    r1[i] *= 2;
+    r2[i - 1] = r1[i] * 2;
   }
-  return r1;
+  r3 = [...r1[0], ...r2];
+  return r3;
 };
 
 console.log(uneDobraRetorna(r1));
